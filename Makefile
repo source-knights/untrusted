@@ -93,7 +93,7 @@ deploy: release
 	@mkdir _site
 	@cp -R levels scripts styles images sound index.html _site
 	@./deploy.sh /untrusted _site
-	@rm -rf _site
+#	@rm -rf _site
 	@echo "[ Done ]"
 
 # `make deploy-full` also deploys music and libs
